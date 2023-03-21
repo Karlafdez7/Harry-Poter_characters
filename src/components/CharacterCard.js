@@ -1,16 +1,19 @@
+import { Link } from "react-router-dom"; 
 
-const CharacterCard = () =>{
+const CharacterCard = ({eachCharacter}) =>{
     return (
         <li>
-            {/* <Link> </Link> */}
-            <img src="" alt="" title=""/>
-            <h3>
-
-            </h3>
-            <p></p>
+            <Link to={`/character/${eachCharacter.id}`}> 
+                <img src={eachCharacter.photo} alt={eachCharacter.name} title={eachCharacter.name}/>
+                <h3>
+                {eachCharacter.name}
+                </h3>
+                <p> {eachCharacter.species}</p>
+            </Link>
         </li>
     );
 }
 
 export default CharacterCard;
+
 

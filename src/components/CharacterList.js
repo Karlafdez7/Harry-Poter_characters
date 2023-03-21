@@ -1,15 +1,18 @@
 import CharacterCard from "./CharacterCard";
 
-const CharacterList = () =>{
- 
+const CharacterList = ({characterListFiltered}) =>{
+
+    const characterHtml = characterListFiltered.map((eachCharacter) => {
+        return <CharacterCard eachCharacter={eachCharacter} key={eachCharacter.id}/>
+    })
+
     return (
         <section>
             <ul>
-             <CharacterCard></CharacterCard>
+             {characterHtml}
             </ul>
         </section>
     );
 }
 
 export default CharacterList;
-
