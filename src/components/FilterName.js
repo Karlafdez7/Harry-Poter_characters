@@ -2,6 +2,8 @@ const FilterName = ({handleNameFilter, filterName}) =>{
 
     const inputName = (ev) => {
         handleNameFilter(ev.target.value);
+        ev.preventDefault(); 
+
     }
 
     return (
@@ -13,7 +15,3 @@ const FilterName = ({handleNameFilter, filterName}) =>{
 }
 
 export default FilterName
-
-
-
-

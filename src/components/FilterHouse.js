@@ -6,7 +6,6 @@ const FilterHouse = ({handleHouseFilter, filterHouse}) =>{
     return (
         <label> Selecciona tu casa:
             <select name="house" id="house" onChange={selectHouse} value={filterHouse}>
-                <option value="all"> All</option>
                 <option value="Gryffindor"> Gryffindor </option>
                 <option value="Slytherin"> Slytherin</option>
                 <option value="Hufflepuff"> Hufflepuff</option>
