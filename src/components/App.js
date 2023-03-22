@@ -33,11 +33,7 @@ const [errorMsg, setErrorMsg] =useState (false);
 
   const handleNameFilter = (value) => {
     setFilterName(value)
-    if (characterListFiltered.length === 0 && !errorMsg){
-      setErrorMsg(true)
-    }else if (characterListFiltered.length ===0 && errorMsg) {
-      setErrorMsg(false)
-    }
+
   }
 
   const handleHouseFilter = (value) => {
@@ -63,7 +59,12 @@ const [errorMsg, setErrorMsg] =useState (false);
   .sort((x, y) => x.name.localeCompare(y.name))
   .filter((eachCharacter)=>{
   return filterGender === 'all' ? true: eachCharacter.gender === filterGender;
-  });
+  })
+  // if (characterListFiltered.length === 0 && !errorMsg){
+  //    setErrorMsg(true)
+  // }else if (characterListFiltered.length ===0 && errorMsg) {
+  //     setErrorMsg(false)
+  //   }
 
  
   /* FUNCIONES HANDLER */

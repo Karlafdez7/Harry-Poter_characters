@@ -1,8 +1,8 @@
 import { Link, useLocation, matchPath } from 'react-router-dom';
-import griffindor from '../image/gryffindor.png'
-import slitherin from '../image/slitherin.png'
-import hufflepuff from '../image/hufflepuff.png'
-import ravenclaw from '../image/ravenclaw.png'
+import griffindor from '../images/gryffindor.png'
+import slitherin from '../images/slitherin.png'
+import hufflepuff from '../images/hufflepuff.png'
+import ravenclaw from '../images/ravenclaw.png'
 
 const CharacterDetail = ({dataApi, handleOnsubmit}) =>{
 
@@ -10,9 +10,10 @@ const CharacterDetail = ({dataApi, handleOnsubmit}) =>{
       griffindor: griffindor,
       slitherin: slitherin,
       hufflepuff: hufflepuff,
-      ravenclaw: ravenclaw,  
-
+      ravenclaw: ravenclaw
     };
+
+   
 
     const { pathname } = useLocation(); 
     const routeData = matchPath("/character/:characterId", pathname);
@@ -27,7 +28,10 @@ const CharacterDetail = ({dataApi, handleOnsubmit}) =>{
 //     return alternate;
 //   };
     return (
+      characterSelected ? ( 
         <section>
+            <Link to={"/"}>Es "Returnooooo!" No "Returnnnnn"</Link>
+
             <img src={characterSelected.photo} alt={characterSelected.name} title={characterSelected.name}/>
             <ul>
                 <li> {characterSelected.name}</li>
@@ -35,8 +39,8 @@ const CharacterDetail = ({dataApi, handleOnsubmit}) =>{
                 <li>Especie: {characterSelected.species}</li>
                 <li>Género: {characterSelected.gender}</li>
                 <li>Casa: {characterSelected.house}</li>
-                <li>Alternate Name: {characterSelected.alternateNames}  </li>
-                <img src={imgHouse[characterSelected.house.toLocaleLowerCase()]} alt={characterSelected.house} />
+                <li>Alternate Name: {characterSelected.alternateNames.join(' y ')}  </li>
+                <img src={imgHouse[characterSelected.house.toLocaleLowerCase()]} alt={characterSelected.house}/>
             </ul>
             <form className="form-detail" onSubmit={handleOnsubmit}>
               <label>
@@ -47,13 +51,18 @@ const CharacterDetail = ({dataApi, handleOnsubmit}) =>{
                 autoComplete="off"
                 type="text"
                 name="search"
-                value={`beta.adalab.es/modulo-3-evaluacion-final-Karlafdez7/#/character/${characterSelected.id}
-                `}
+                value={window.location}
                 readOnly
               />
             </form>
-            <Link to={"/"}>Es "Returnooooo!" No "Returnnnnn"</Link>
-        </section>
+            
+        </section>)
+        :
+        (<>
+        <p>No se ha encontrado personaje</p>
+        <Link to={"/"}>Es "Returnooooo!" No "Returnnnnn"</Link>
+        </> )
+        
     );
 }
 
