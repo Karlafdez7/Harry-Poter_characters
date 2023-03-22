@@ -1,32 +1,25 @@
 import { Link, useLocation, matchPath } from 'react-router-dom';
-import griffindor from '../images/gryffindor.png'
-import slitherin from '../images/slitherin.png'
+import gryffindor from '../images/gryffindor.png'
+import slytherin from '../images/slitherin.png'
 import hufflepuff from '../images/hufflepuff.png'
 import ravenclaw from '../images/ravenclaw.png'
 
 const CharacterDetail = ({dataApi, handleOnsubmit}) =>{
 
     const imgHouse = {
-      griffindor: griffindor,
-      slitherin: slitherin,
+      gryffindor: gryffindor,
+      slytherin: slytherin,
       hufflepuff: hufflepuff,
       ravenclaw: ravenclaw
     };
-
-   
+    
 
     const { pathname } = useLocation(); 
     const routeData = matchPath("/character/:characterId", pathname);
     const characterId = routeData !== null ? routeData.params.characterId : null;
     const characterSelected = dataApi.find((eachCharacter) => eachCharacter.id === characterId);
 
-//     const renderAlternateNames = (characterSelected) => {
-//     const eachAlternateName = characterSelected.alternateNames;
-//     const alternate = eachAlternateName.map((eachAlternate) => {
-//       return <li>{eachAlternate}</li>;
-//     });
-//     return alternate;
-//   };
+
     return (
       characterSelected ? ( 
         <section>
@@ -39,7 +32,9 @@ const CharacterDetail = ({dataApi, handleOnsubmit}) =>{
                 <li>Especie: {characterSelected.species}</li>
                 <li>Género: {characterSelected.gender}</li>
                 <li>Casa: {characterSelected.house}</li>
-                <li>Alternate Name: {characterSelected.alternateNames.join(' y ')}  </li>
+                <li>Alternate Name: {''}{characterSelected.alternateNames.join(' y ') 
+                ? characterSelected.alternateNames.join(' y ')  
+                : 'noooo' }</li>
                 <img src={imgHouse[characterSelected.house.toLocaleLowerCase()]} alt={characterSelected.house}/>
             </ul>
             <form className="form-detail" onSubmit={handleOnsubmit}>
