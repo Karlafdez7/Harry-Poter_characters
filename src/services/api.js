@@ -1,3 +1,4 @@
+import photoVis from '../images/Vis.png'
 const callToApi = (filterHouse) => {
   // Llamamos a la API
   return fetch(
@@ -9,8 +10,7 @@ const callToApi = (filterHouse) => {
       const selectionApi = data.map((eachCharacter) => {
         return {
           name: eachCharacter.name,
-          photo: eachCharacter.image ||
-            `https://via.placeholder.com/210x295/ffffff/666666/?text=HarryPotter`,
+          photo: eachCharacter.image || photoVis,
           species: eachCharacter.species,
           id: eachCharacter.id,
           house: eachCharacter.house,
@@ -24,5 +24,4 @@ const callToApi = (filterHouse) => {
 };
 
 export default callToApi;
-
 

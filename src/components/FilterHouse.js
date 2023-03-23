@@ -4,17 +4,18 @@ const FilterHouse = ({handleHouseFilter, filterHouse}) =>{
         handleHouseFilter(ev.target.value)
     }    
     return (
-        <label> Selecciona tu casa:
-            <select name="house" id="house" onChange={selectHouse} value={filterHouse}>
-                <option value="Gryffindor"> Gryffindor </option>
-                <option value="Slytherin"> Slytherin</option>
-                <option value="Hufflepuff"> Hufflepuff</option>
-                <option value="Ravenclaw">Ravenclaw</option>
+        <fieldset className="filters-form-house"> 
+            <label > Selecciona tu casa:</label>
+                <select className="filters-form-house-select" name="house" id="house" onChange={selectHouse} value={filterHouse}>
+                    <option className="filters-form-house-select-option" value="Gryffindor"> Gryffindor </option>
+                    <option className="filters-form-house-select-option" value="Slytherin"> Slytherin</option>
+                    <option className="filters-form-house-select-option" value="Hufflepuff"> Hufflepuff</option>
+                    <option className="filters-form-house-select-option" value="Ravenclaw">Ravenclaw</option>
 
-            </select>
+                </select>
 
-        </label>
-
+            
+        </fieldset>
     );
 }
 

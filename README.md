@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# MODUL0 3: EVALUACIÓN REACT - KARLA FERNÁNDEZ CHIRNOS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Especto...¡ups!🧙🏻‍♀️
+Lamentablemente soy una muggle y no puedo usar la varita para programar, ¡pero no pasa nada!
 
-## Available Scripts
+Como buena programadora en formación he usado mis habilidades para ofreceros una página interactiva que os haga soñar, una vez más, con la magía de Hogwarts.
 
-In the project directory, you can run:
+Este pequeño nace de la ilusión de probarme en mis comienzos con React.🕵🏻
 
-### `npm start`
+## Mis herramientas máginas 💫
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> VISUAL STUDIO CODE
+> HTML
+> SASS / SCSS
+> JS
+> REACT
+> GIT / GITHUB
+> API
+> GULP
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Mis conocimientos previos en HTML,SASS y JS han hecho posible que hoy pueda trabajar con REACT. Estas tres herramientas han sido vitales para construir la página.
 
-### `npm test`
+## ¿Qué vas a encontrar en este proyecto?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+En esta ocasión he creado una página interactiva para que se pueda conocer a los personajes más importantes de la saga Harry Potter.
 
-### `npm run build`
+¿Pero solo eso? ¡Claro que no!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Puedes buscar a los personajes por nombre,
+- Por las diferentes casas del colegio Hogwarts de la saga,
+- También podrás tener a los personajes femeninos o masculinos,
+- Y si alguno de ellos te interesa un poco más, haz click y descrubre un poco más de información.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Para visualizar este proyecto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Si quieres descubrir este proyecto de manera rápiday directa:
+> Ve al apartado "about" y podrás encontrar el link que te llevará a la página.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Pero si quieres trastear un poco con el código:
+> Con toda confianza dale a descargar o clonar el repositorio. Una vez lo tengas, abre la términal y tan solo te hará falta un 'npm install' y después 'npm start'.

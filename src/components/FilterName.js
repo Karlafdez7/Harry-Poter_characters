@@ -7,11 +7,19 @@ const FilterName = ({handleNameFilter, filterName}) =>{
     }
 
     return (
-        <label htmlFor=""> Busca personaje:
-            <input type="search" placeholder="Hermione Granger" autoComplete="off" value={filterName} onChange={inputName}>
-            </input>
-        </label>
+        <fieldset> 
+            <label className="filters-form-name" htmlFor=""> Busca personaje:
+                <input className="filters-form-name-input" type="search" placeholder="Hermione Granger" autoComplete="off" value={filterName} onChange={inputName}>
+                </input>
+            </label>
+        </fieldset>
     );
 }
 
-export default FilterName
+export default FilterName;
+
+
+
+
+
+
