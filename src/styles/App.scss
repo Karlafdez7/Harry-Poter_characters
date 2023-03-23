@@ -9,6 +9,9 @@
         height: 20vh;
         
     }
+    @media (min-width:1024px) {
+        height: 25vh;
+    }
 
 
     &-title {
