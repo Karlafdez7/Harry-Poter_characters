@@ -7,7 +7,7 @@ Como buena programadora en formación he usado mis habilidades para ofreceros un
 
 Este pequeño nace de la ilusión de probarme en mis comienzos con React.🕵🏻
 
-## Mis herramientas máginas 💫
+## Mis herramientas mágicas 💫
 
 > VISUAL STUDIO CODE
 > HTML
