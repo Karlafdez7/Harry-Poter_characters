@@ -1,40 +1,34 @@
-# MODUL0 3: EVALUACIÓN REACT - KARLA FERNÁNDEZ CHIRNOS
+# Harry Potter character finder
+I present to you my first website made with **REACT**.
 
-Especto...¡ups!🧙🏻‍♀️
-Lamentablemente soy una muggle y no puedo usar la varita para programar, ¡pero no pasa nada!
+## Technologies used 💫
 
-Como buena programadora en formación he usado mis habilidades para ofreceros una página interactiva que os haga soñar, una vez más, con la magía de Hogwarts.
+- VISUAL STUDIO CODE  🗄️
+- HTML 📌
+- SASS / SCSS  🕹️
+- JS 🔗
+- REACT🔗
+- GIT / GITHUB 📂
+- API🗄️
+- GULP 🖌️
 
-Este pequeño nace de la ilusión de probarme en mis comienzos con React.🕵🏻
+My previous knowledge in HTML, SASS, and JS has made it possible for me to work with REACT today. These three tools have been vital in building the page.
 
-## Mis herramientas mágicas 💫
+## What will you find in this project?
 
-> VISUAL STUDIO CODE
-> HTML
-> SASS / SCSS
-> JS
-> REACT
-> GIT / GITHUB
-> API
-> GULP
+On this occasion, I have created an interactive page to get to know the most important characters in the Harry Potter saga.
 
-Mis conocimientos previos en HTML,SASS y JS han hecho posible que hoy pueda trabajar con REACT. Estas tres herramientas han sido vitales para construir la página.
+But is that all? Of course not!
 
-## ¿Qué vas a encontrar en este proyecto?
+- You can search for characters by name,
+- By the different Hogwarts houses in the saga,
+- You can also filter by female or male characters,
+- And if you're particularly interested in any of them, simply click to discover more information.
 
-En esta ocasión he creado una página interactiva para que se pueda conocer a los personajes más importantes de la saga Harry Potter.
+## To visualize this project:
 
-¿Pero solo eso? ¡Claro que no!
+- If you want to discover this project quickly and directly:
+- Go to the "about" section and you will find the link that will take you to the page.
 
-- Puedes buscar a los personajes por nombre,
-- Por las diferentes casas del colegio Hogwarts de la saga,
-- También podrás tener a los personajes femeninos o masculinos,
-- Y si alguno de ellos te interesa un poco más, haz click y descrubre un poco más de información.
-
-## Para visualizar este proyecto:
-
-> Si quieres descubrir este proyecto de manera rápiday directa:
-> Ve al apartado "about" y podrás encontrar el link que te llevará a la página.
-
-> Pero si quieres trastear un poco con el código:
-> Con toda confianza dale a descargar o clonar el repositorio. Una vez lo tengas, abre la términal y tan solo te hará falta un 'npm install' y después 'npm start'.
+- But if you want to tinker a bit with the code:
+- Feel free to download or clone the repository. Once you have it, open the terminal and all you need is an 'npm install' and then 'npm start'.
