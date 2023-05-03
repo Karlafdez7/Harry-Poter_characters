@@ -32,3 +32,23 @@ But is that all? Of course not!
 
 - But if you want to tinker a bit with the code:
 - Feel free to download or clone the repository. Once you have it, open the terminal and all you need is an 'npm install' and then 'npm start'.
+
+### I leave you some images of the project
+
+
+<div align="center">
+<p> Fully responsive website:
+</p>
+<img width="25%" height="35%" src="https://github.com/Karlafdez7/Harry-Poter_characters/blob/main/Mobi-_homepages-README.png?raw=true" alt="cover" />
+</br>
+<img width="45%" height="55%" src="https://github.com/Karlafdez7/Harry-Poter_characters/blob/main/Tablet-desktop_hompages-README.png?raw=true" alt="cover" />
+</br>
+<img width="45%" height="55%" src="https://github.com/Karlafdez7/Harry-Poter_characters/blob/main/Card_character.png?raw=true" alt="cover" />
+
+</div>
+</br>
+</div>
+<div align="center">
+<img width="25%" height="35%" src="https://github.com/Karlafdez7/Harry-Poter_characters/blob/main/Search-notFound.png?raw=true" />
+</div>
+
