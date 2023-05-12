@@ -16,7 +16,7 @@ const [filterName, setFilterName] = useState ("")
 const [filterHouse, setFilterHouse] = useState("Gryffindor")
 const [filterGender, setFilterGender] =useState ('all')
 const [errorMsg, setErrorMsg] =useState (false);
- 
+
   useEffect(() => {
 
     callToApi(filterHouse).then((selectionApi) => {
